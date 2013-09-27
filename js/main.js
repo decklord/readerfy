@@ -3,7 +3,7 @@ var words, timer, speed, index;
 $("#stop-reading").hide();
 
 function stop(){
-    intro = "Type something bellow and I will make you read it faster.";
+    intro = "Copy something bellow and I will make you read it faster.";
     $("#word-container center").html(intro);
     clearInterval(timer);
     toggle();
