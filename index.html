@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 id='word-container'><center>Type something bellow and I will make you read it faster.</center></h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        <textarea id='text-to-read' class='big'>
+El grupo de inversión Fairfax Financial Holdings cerró un acuerdo para comprar BlackBerry por USD$4.700 millones. La compra se cerraría el 4 de noviembre, plazo hasta el cual la compañía canadiense estaría abierta a recibir otras ofertas. Las personas que están detrás de la compra a través de Fairfax se han mantenido anónimas.
+
+Las cosas no han andado muy bien para BlackBerry desde hace bastante tiempo. El viernes, la compañía dio a conocer sus resultados confirmando que despedirían a 4.500 empleados para fines de año. En el documento también se adelantó que se esperaban pérdidas por USD$1.000 millones, tres veces más de lo que esperaban los analistas. La información provocó una caída de 17% en las acciones el viernes, más una de 5% hoy antes que se suspendieran las transacciones debido al anuncio de venta.
+
+El CEO de Fairfax Financial Holdings, Prem Watsa, afirmó que se intentará mantener a la empresa completa en Canadá, y que gran parte del dinero para la inversión vendrá de ese país.
+
+BlackBerry había evaluado ponerse a la venta hace un mes. La compañía había lanzado recientemente los equipos Q10, Q5, Z10 y Z30, todas con el nuevo sistema operativo BlackBerry 10.
+        </textarea>
+      </p>
+      <p>
+        <div class="row">
+          <div class="col-lg-2">
+            <a id='start-reading' class="btn btn-primary btn-lg">Start Reading</a>
+            <a id='stop-reading' style='display:none' class="btn btn-warning btn-lg">Stop Reading</a>
+          </div>
+          <div class="col-lg-1">
+                <input type="text" class="form-control" id="wpm" placeholder="Words per minute" value="300">
+          </div>
+          <div class="col-lg-1">
+                <small class="mutex">Words per minute</small>
+          </div>
+      </p>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src='http://www.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    </body>
+</html>
